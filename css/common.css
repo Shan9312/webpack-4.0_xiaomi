@@ -1,0 +1,38 @@
+html,body,p,h1,h2,h3,h4,ul,li{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color:#FF6700;
+}
+body{
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+    background-color: #fff;
+	min-width: 1226px;
+	font-size:14px
+}
+*{
+	box-sizing: border-box;
+}
+.container{
+	width:1226px;	
+	margin:0 auto;
+}
+.lf{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.fill{
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
